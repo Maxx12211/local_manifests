@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Maxx12211" fetch="https://github.com"/>
+  
   <remote name="YALP-Devices" fetch="https://github.com"/>
 
 
