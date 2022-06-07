@@ -1,1 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="Maxx12211" fetch="https://github.com"/>
+  <remote name="YALP-Devices" fetch="https://github.com"/>
 
+
+  <project name="YALP-Devices/android_device_xiaomi_mi439" path="device/xiaomi/mi439" remote="YALP-Devices" revision="lineage-19.1" />
+  <project name="YALP-Devices/device_xiaomi_sdm439-common" path="device/xiaomi/sdm439-common" remote="YALP-Devices" revision="dct" />
+  <project name="YALP-Devices/android_vendor_xiaomi-_mi439" path="vendor/xiaomi/mi439" remote="YALP-Devices" revision="lineage-18.1" />
+  <project name="YALP-Devices/vendor_xiaomi_sdm439-common" path="vendor/xiaomi/sdm439-common" remote="YALP-Devices" revision="12-R" />
+  <project name="YALP-Devices/kernel_xiaomi_sdm439" path="kernel/xiaomi/sdm439" remote="YALP-Devices" revision="a12/main" />
+</manifest>
