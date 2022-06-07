@@ -12,3 +12,9 @@ Remove the the following lines in rom manifest that includes following paths
 4. hardware/qcom-caf/wlan
 
 The location will be .repo/manifests/snippets
+
+# After removing them do a repo sync
+
+```bash
+  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
