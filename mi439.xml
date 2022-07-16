@@ -10,15 +10,15 @@
    <remote name="Maxx12211" fetch="https://github.com"/>
    
   <!-- Device -->
-  <project name="YAPP-Devices/android_device_xiaomi_mi439" path="device/xiaomi/mi439" remote="YALP-Devices" revision="lineage-19.1" />
-  <project name="YAPP-Devices/device_xiaomi_sdm439-common" path="device/xiaomi/sdm439-common" remote="YALP-Devices" revision="dct" />
+  <project name="YAPP-Devices/device_xiaomi_mi439" path="device/xiaomi/mi439" remote="YALP-Devices" revision="12.1" />
+  <project name="YAPP-Devices/device_xiaomi_mithorium-common" path="device/xiaomi/mithorium/common" remote="YAPP-Devices" revision="12.1" />
   
   <!-- Vendor -->
-  <project name="YAPP-Devices/android_vendor_xiaomi-_mi439" path="vendor/xiaomi/mi439" remote="YALP-Devices" revision="lineage-18.1" />
-  <project name="YAPP-Devices/vendor_xiaomi_sdm439-common" path="vendor/xiaomi/sdm439-common" remote="YALP-Devices" revision="12-R" />
+  <project name="YAPP-Devices/android_vendor_xiaomi_mi439" path="vendor/xiaomi/mi439" remote="YALP-Devices" revision="12.1" />
+  <project name="YAPP-Devices/vendor_xiaomi_mithorium-common" path="vendor/xiaomi/mithorium/common" remote="YAPP-Devices" revision="12.1" />
   
   <!-- Kernel -->
-  <project name="YAPP-Devices/kernel_xiaomi_sdm439" path="kernel/xiaomi/sdm439" remote="YALP-Devices" revision="a12/main" />
+  <project name="YAPP-Devices/kernel_xiaomi_sdm439" path="kernel/xiaomi/sdm439" remote="YAPP-Devices" revision="12.1" />
  
   <!-- Hardware -->
   <project name="Maxx12211/hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="Maxx12211" revision="9.6.2" />
