@@ -2,7 +2,7 @@
 Clone the repository to the right path
 
 ```bash
-git clone https://github.com/Maxx12211/local_manifests -b rova .repo/local_manifests
+git clone https://github.com/Maxx12211/local_manifests -b rova2 .repo/local_manifests
 ```
 
 
