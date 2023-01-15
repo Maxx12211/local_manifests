@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!--
+    * target: rova
+    * rom: aosp
+    -->
+
+  <!-- Remote -->
+   <remote name="crdroid-9" fetch="https://github.com/crdroidandroid" revision="13.0" />
+   <remote name="Maxx12211" fetch="https://github.com/Maxx12211"/>
+   
+  <!-- Device -->
+  <project name="android_device_xiaomi_rova" path="device/xiaomi/rova" remote="Maxx12211" revision="13-aosp" />
+  
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/rova" name="android_vendor_xiaomi_rova" remote="crdroid-9" />
+  
+  <!-- Kernel -->
+ <project path="kernel/xiaomi/rova" name="android_kernel_xiaomi_rova" remote="crdroid-9" />
+ 
+ 
+</manifest>
